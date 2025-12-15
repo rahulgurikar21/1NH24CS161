@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireless Earbuds Product Card</title>
+    <style>
+        /* This sets the entire page background. 
+           Replace 'YOUR_BACKGROUND_IMAGE_URL.jpg' with a real image link. */
+        body {
+            background-image: url('YOUR_BACKGROUND_IMAGE_URL.jpg'); /* */
+            background-size: cover; /* Ensures the image covers the whole background */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents image repetition */
+            background-color: #f0f0f0; /* Fallback color if the image doesn't load */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            color: white;
+        }
+
+
+        /* Styles for the main dark product card container */
+        .product-card {
+            background-color: #1a1a2e; /* Dark background color */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            opacity: 0.95;
+        }
+
+
+        .title-section h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+
+        .title-section p {
+            font-size: 14px;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+
+        /* Styles for the features grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+            gap: 15px; /* Space between features */
+            text-align: left;
+        }
+
+
+        .feature-item {
+            background-color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+
+        /* Styles for the active/call-to-action button */
+        .activate-button {
+            background-color: #007bff; /* Blue color for visibility */
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 25px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="product-card">
+        <div class="title-section">
+            <h1>True Wireless Stereo Earbuds</h1>
+            <p>Seamless connectivity and exceptional sound quality await</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-item">BT Chip 5.3</div>
+            <div class="feature-item">Comfortable To Wear</div>
+            <div class="feature-item">Voice Call</div>
+            <div class="feature-item">Touch Control</div>
+            <div class="feature-item">Long Battery Life</div>
+            <div class="feature-item">Water Resistant</div>
+        </div>
+
+
+        <div class="activate-button">
+            Activate Self-Cleaning
+        </div>
+        <p style="font-size: 12px; margin-top: 10px; color: #aaa;">Self-Cleaning complete!</p>
+    </div>
+
+
+</body>
+</html>
